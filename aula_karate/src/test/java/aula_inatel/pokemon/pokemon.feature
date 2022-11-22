@@ -1,7 +1,7 @@
 Feature: Testando API Pokemon.
 
 Background: Executa antes de cada teste
-    * def url_base = 'https://pokeapi.co/api/'
+    * def url_base = 'https://pokeapi.co/api/v2/'
 
 Scenario: Testando retorno.
     Given url 'https://pokeapi.co/api/v2/pokemon/pikachu'
