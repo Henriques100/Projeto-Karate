@@ -1,0 +1,460 @@
+18:51:39.969 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:51:42.630 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:51:43.071 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.py4e.com/api/people/1/
+1 > Host: swapi.py4e.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:51:43.988 [main] DEBUG com.intuit.karate - response time in milliseconds: 890
+1 < 200
+1 < Date: Wed, 16 Nov 2022 21:51:42 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < Vary: Accept, Cookie
+1 < X-Frame-Options: SAMEORIGIN
+1 < ETag: W/"b68f80563f959a66933ad282d57ef18c"
+1 < Allow: GET, HEAD, OPTIONS
+1 < X-Clacks-Overhead: GNU Terry Pratchett
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aN4QIQCZAuZYQtdF3rCw9zjw67RIY83J7cX3%2BmpNQ0nc72nA7uZMPpCZJCDcNj7jGlwfusQ8z%2Bu1oKVYXZirpSByO86HkKLoNJbkTbSsNhsoKfk1yJ5kkfiwnab5%2B6eaBw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 76b37311bea31178-GIG
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"films":["https:\/\/swapi.py4e.com\/api\/films\/1\/","https:\/\/swapi.py4e.com\/api\/films\/2\/","https:\/\/swapi.py4e.com\/api\/films\/3\/","https:\/\/swapi.py4e.com\/api\/films\/6\/","https:\/\/swapi.py4e.com\/api\/films\/7\/"],"homeworld":"https:\/\/swapi.py4e.com\/api\/planets\/1\/","gender":"male","skin_color":"fair","edited":"2014-12-20T21:17:56.891000Z","created":"2014-12-09T13:50:51.644000Z","mass":"77","vehicles":["https:\/\/swapi.py4e.com\/api\/vehicles\/14\/","https:\/\/swapi.py4e.com\/api\/vehicles\/30\/"],"url":"https:\/\/swapi.py4e.com\/api\/people\/1\/","hair_color":"blond","birth_year":"19BBY","eye_color":"blue","species":["https:\/\/swapi.py4e.com\/api\/species\/1\/"],"starships":["https:\/\/swapi.py4e.com\/api\/starships\/12\/","https:\/\/swapi.py4e.com\/api\/starships\/22\/"],"name":"Luke Skywalker","height":"172"}
+18:51:44.004 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:51:44.009 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.py4e.com/api/people/1/1234/
+1 > Host: swapi.py4e.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.16.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:51:44.366 [main] DEBUG com.intuit.karate - response time in milliseconds: 357
+1 < 404
+1 < Date: Wed, 16 Nov 2022 21:51:43 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Vary: Accept-Encoding
+1 < X-Frame-Options: SAMEORIGIN
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MZbtEb9kq0hlIZSwRstHwUC8eO9Qdf0hNB81HloO6FV7QmADQZYOIK1LS%2FJ4%2B9BPuuQbNGFywPV8OFA1hFHLvzY26Hfcy%2FuzHc%2Blr9CrE5K%2FoMSgjgtA2E6ZHFAZ0eQyig%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 76b373146c60276d-GIG
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /api/people/1/1234/</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>https://swapi.py4e.com/api/people/1/1234/</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>swapi.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^documentation$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^about$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stats$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stripe/donation
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/people/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/planets/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/films/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/species/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/vehicles/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/starships/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='api-root']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^people/$
+                [name='people-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^people/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='people-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^people/(?P&lt;pk&gt;[^/.]+)/$
+                [name='people-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^people/(?P&lt;pk&gt;[^/.]+)/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='people-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^planets/$
+                [name='planet-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^planets/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='planet-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^planets/(?P&lt;pk&gt;[^/.]+)/$
+                [name='planet-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^planets/(?P&lt;pk&gt;[^/.]+)/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='planet-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^films/$
+                [name='film-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^films/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='film-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^films/(?P&lt;pk&gt;[^/.]+)/$
+                [name='film-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^films/(?P&lt;pk&gt;[^/.]+)/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='film-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^species/$
+                [name='species-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^species/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='species-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^species/(?P&lt;pk&gt;[^/.]+)/$
+                [name='species-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^species/(?P&lt;pk&gt;[^/.]+)/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='species-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^vehicles/$
+                [name='vehicle-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^vehicles/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='vehicle-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&lt;pk&gt;[^/.]+)/$
+                [name='vehicle-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^vehicles/(?P&lt;pk&gt;[^/.]+)/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='vehicle-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^starships/$
+                [name='starship-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^starships/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='starship-list']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^starships/(?P&lt;pk&gt;[^/.]+)/$
+                [name='starship-detail']
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+                ^starships/(?P&lt;pk&gt;[^/.]+)/\.(?P&lt;format&gt;[a-z0-9]+)$
+                [name='starship-detail']
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>api/people/1/1234/</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
