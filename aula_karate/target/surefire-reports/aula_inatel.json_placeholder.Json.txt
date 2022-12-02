@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.json_placeholder.Json
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.454 s <<< FAILURE! - in aula_inatel.json_placeholder.Json
+json_placeholder  Time elapsed: 0.452 s  <<< ERROR!
+java.lang.RuntimeException: not found: aula_inatel/json_placeholder/JsonRunner.feature
+
